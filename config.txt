@@ -13,8 +13,8 @@ grid_count=10
 # Grid interval in USD, supports decimals like 0.0001
 grid_interval=1
 
-# Amount per order in USD
-grid_amount=10
+# Amount per order in USD，Minimum Order Value=100
+grid_amount=100
 
 # Starknet private key (hex or int)
 private_key=0x123456789abcdef  # Replace with real key
