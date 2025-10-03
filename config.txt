@@ -1,0 +1,25 @@
+# Trading pair, e.g., BTC-USD-PERP
+symbol=BTC-USD-PERP
+
+# Price range, e.g., 100000-130000
+price_range=100000-130000
+
+# Grid count (even number for symmetry), e.g., 10 for 5 buys + 5 sells
+grid_count=10
+
+# Grid interval in USD, supports decimals like 0.0001
+grid_interval=1
+
+# Amount per order in USD
+grid_amount=10
+
+# Starknet private key (hex or int)
+private_key=0x123456789abcdef  # Replace with real key
+
+# Starknet account address (hex)
+account_address=0xabcdef123456789  # Replace with real address
+
+# Risk controls (optional, with defaults)
+max_position_usd=1000  # Max position value in USD
+stop_loss_pct=5  # % drop from center to trigger SL
+take_profit_pct=3  # % profit to trigger TP
