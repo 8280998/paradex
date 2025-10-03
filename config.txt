@@ -4,6 +4,9 @@ symbol=BTC-USD-PERP
 # Price range, e.g., 100000-130000 (ignored if enable_price_range=false)
 price_range=100000-130000
 
+# Enable price range limit (true/false). If false, use unlimited grid (no low/high checks)
+enable_price_range=true
+
 # Grid count (even number for symmetry), e.g., 10 for 5 buys + 5 sells
 grid_count=10
 
@@ -24,5 +27,3 @@ max_position_usd=1000  # Max position value in USD
 stop_loss_pct=5  # % drop from center to trigger SL
 take_profit_pct=3  # % profit to trigger TP
 
-# New: Enable price range limit (true/false). If false, use unlimited grid (no low/high checks)
-enable_price_range=true
