@@ -16,14 +16,16 @@ grid_interval=1
 # Amount per order in USD，Minimum Order Value=100
 grid_amount=100
 
+# Risk controls (optional, with defaults)
+max_position_usd=1000  # Max position value in USD
+stop_loss_pct=5  # % drop from center to trigger SL
+take_profit_pct=3  # % profit to trigger TP
+
 # Starknet private key (hex or int)
 private_key=0x123456789abcdef  # Replace with real key
 
 # Starknet account address (hex)
 account_address=0xabcdef123456789  # Replace with real address
 
-# Risk controls (optional, with defaults)
-max_position_usd=1000  # Max position value in USD
-stop_loss_pct=5  # % drop from center to trigger SL
-take_profit_pct=3  # % profit to trigger TP
+
 
